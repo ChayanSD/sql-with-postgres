@@ -1,0 +1,27 @@
+Switch to postgres : 
+    sudo -i -u postgres
+
+psql ->go to postgres user
+
+    \l ->show list of databases
+
+Create database : 
+CREATE DATABASE name;
+
+Connect to database : 
+
+Connection options:
+  -h, --host=HOSTNAME      database server host or socket directory (default: "/var/run/postgresql")
+  -p, --port=PORT          database server port (default: "5432")
+  -U, --username=USERNAME  database user name (default: "postgres")
+  -w, --no-password        never prompt for password
+  -W, --password           force password prompt (should happen automatically)
+
+Connect to DB : psql -h localhost -p 5432 -U postgres <dbname>
+    another way to connect : \c <dbname>
+
+Table related stuff : 
+    \d ->list of relation.
+    \d <table_name> ->show the table.
+ Delete table : 
+    DROP TABLE <table_name>

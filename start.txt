@@ -25,3 +25,16 @@ Table related stuff :
     \d <table_name> ->show the table.
  Delete table : 
     DROP TABLE <table_name>
+
+--Day 2 ---
+
+Let's say you have large amount of data in a file like person.sql.
+How to import this file in Postgres ? 
+    \i <file_path> <file_name>
+ Example : \i /user/chayan/person.sql
+
+ --How to sort data ---
+ SELECT * FROM <table_name> ORDER BY ASC;
+ Code in chapter2 sort_data.sql
+
+1.21.23

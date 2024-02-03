@@ -37,4 +37,22 @@ How to import this file in Postgres ?
  SELECT * FROM <table_name> ORDER BY ASC;
  Code in chapter2 sort_data.sql
 
-1.21.23
+--Day 3 ------
+
+Where cluse : 
+
+Where clause used to filter the data with some condition.
+-- Remember the person.sql file whre we have a gender filed , Now i want to see List of perople whre their gender is female.
+
+SELECT * FROM <table_name> WHERE <field_name> = <value>;
+SELECT * FROM person WHERE gender = 'Female';
+
+Comparison Operator 
+--We can perform arithmatic operation 
+
+SELECT 1 = 1; 
+-- t
+SELECT 1 <> 2
+
+--> <> means not equal 
+< , > , <= , >= 

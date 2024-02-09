@@ -56,3 +56,11 @@ SELECT 1 <> 2
 
 --> <> means not equal 
 < , > , <= , >= 
+
+------Chapter 4 -----------
+LIMIT : let's say , I need first 10 people from my table ; 
+SELECT * FROM person LIMIT 10;
+
+OFFSET : what offset does? Now i want to see 10 people from id 10 to 20 ;
+
+SELECT * FROM person OFFSET 10 LIMIT 10;

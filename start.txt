@@ -64,3 +64,11 @@ SELECT * FROM person LIMIT 10;
 OFFSET : what offset does? Now i want to see 10 people from id 10 to 20 ;
 
 SELECT * FROM person OFFSET 10 LIMIT 10;
+
+-------Chapter 5 ---------
+
+LIKE 
+SELECT * FROM person WHERE email LIKE '%google.com';
+
+SELECT BY
+GROUP BY

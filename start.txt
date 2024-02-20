@@ -72,3 +72,6 @@ SELECT * FROM person WHERE email LIKE '%google.com';
 
 SELECT BY
 GROUP BY
+
+-------Chapter 6 -----
+HAVING

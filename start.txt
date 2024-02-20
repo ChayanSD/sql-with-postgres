@@ -75,3 +75,12 @@ GROUP BY
 
 -------Chapter 6 -----
 HAVING
+
+---------Chapter 7 --------
+Aggrigation function : 
+    MAX(column name)
+    MIN(column name)
+    SUM(column name)
+    AVG(column name)
+    ROUND()
+ Arithmatic Operator

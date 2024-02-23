@@ -84,3 +84,6 @@ Aggrigation function :
     AVG(column name)
     ROUND()
  Arithmatic Operator
+
+
+ -------Chapter 8----------
